@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headLinks}}
+</head>
+
+<body>
+    {{>header}}
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 main_header_left">
+                        <img src="images/keshab.png" alt="" srcset="">
+                    </div>
+                    <div class="col-md-6 col-12 main_header_right">
+                        <p class="subhead1">Hello, It's Me</p>
+                    <h1>Keshab Das</h1>
+                        <p class="subhead2">and i'm a <a href="#"><span class="typing"></span> </a></p>
+                        <div class="profile">
+                            <a href="#" class="profileIcon" style="--i:3"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="profileIcon" style="--i:4"><i class="bi bi-instagram "></i></a>
+                            <a href="#" class="profileIcon" style="--i:5"><i class="bi bi-linkedin "></i></a>
+                            <a href="#" class="profileIcon" style="--i:6"><i class="bi bi-twitter "></i></a>
+                        </div>
+                        <a href="#" style="--i:7"><button class="button">Know More</button></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+    {{>bootstrapJs}}
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".typing",{
+    strings: ["","Frontend Developer","Backend Developer","MERN Developer","Competitive Programmer","Web Developer","Web Designer"],
+    typeSpeed:100,
+    back#0,
+    backDelay: 100,
+    loop:true
+})
+    </script>
+    
+</body>
+
+</html>
